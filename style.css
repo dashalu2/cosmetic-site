@@ -1,0 +1,107 @@
+/* Загальний стиль для всього сайту */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Світло-сірий фон */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+#tab6 ul li {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Стиль для контейнера */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Білий фон контейнера */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav .tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Це додає вертикальне центрування, якщо потрібно */
+    height: 100%; /* Додає вертикальне центрування, якщо потрібно */
+}
+
+nav .tabs button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    /* Додайте інші стилі за необхідності */
+}
+
+body {
+    background-color: #f8d7da; /* Це ніжний рожевий колір */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Замініть на ваш шрифт за необхідності */
+}
+
+
+
+
+/* Стиль для заголовка h1 */
+h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff69b4; /* Рожевий колір заголовка */
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+}
+
+/* Стиль для текстових параграфів p */
+p {
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Стиль для ненумерованого списку ul */
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* Стиль для кнопок */
+button {
+    background-color: #9370DB; /* Фіолетовий фон кнопки */
+    color: #fff; /* Білий колір тексту кнопки */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Рожевий фон кнопки при наведенні */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Відступ зверху для кращого вигляду */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Колір фону для заголовків */
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* Колір фону для рядка при наведенні */
+}
+
+
